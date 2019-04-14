@@ -16,7 +16,7 @@ public class MemberController {
 
     @RequestMapping("/")
     public String moveTestJsp(Model model) {
-    	//빈 객체 넘겨줘야함.
+    	//빈 객체 넘겨줘야함. 
     	model.addAttribute("memberDto", new MemberDto());
     	return "insert";
     }
